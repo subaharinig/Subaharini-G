@@ -98,12 +98,12 @@ function About() {
         <div className="about-text fade-in">
           <h2 className="section-title">About Me</h2>
           <p>
-            I’m Subaharini, a Computer Science and Engineering undergraduate at
-            St. Joseph’s Institute of Technology. An aspiring full-stack
-            developer and tech enthusiast, I’m passionate about exploring
+            I'm Subaharini, a Computer Science and Engineering undergraduate at
+            St. Joseph's Institute of Technology. An aspiring full-stack
+            developer and tech enthusiast, I'm passionate about exploring
             emerging technologies and applying them to real-world challenges. I
             have a growing interest in machine learning and have worked on
-            numerous RPA projects. As a proactive leader and organizer, I’ve
+            numerous RPA projects. As a proactive leader and organizer, I've
             participated in multiple hackathons and successfully conducted
             various technical events, showcasing my commitment to innovation and
             collaboration.
@@ -130,7 +130,7 @@ function Education() {
         <div className="education-card fade-in">
           <h3>St. Joseph's Institute of Technology</h3>
           <p>Bachelor of Engineering in Computer Science and Engineering</p>
-          <div className="cgpa">CGPA: 8.47</div>
+          <div className="cgpa">CGPA: 8.53</div>
         </div>
       </div>
     </section>
@@ -160,14 +160,6 @@ function Projects() {
         "Developed an AI platform for commuter demand prediction and dynamic public transport scheduling using real-time traffic, weather, and event data. Applied ML for forecasting, adaptive routing, and optimized dispatch to reduce congestion and wait times.",
       tech: ["Python", "TensorFlow", "Flask", "ML", "HTML", "CSS", "JS"]
     },
-    
-    {
-      icon: <FaRocket className="project-icon" />,
-      title: "Biz Boosters – Smart Growth Hub for SMEs",
-      description:
-        "Developed an AI-powered platform for SME registration, IP protection, and compliance. Enabled smart investor matchmaking, market insights, and personalized learning.",
-      tech: ["React", "MongoDB", "Analytics"]
-    },
     {
       icon: <FaMicrophone className="project-icon" />,
       title: "JARVIS – Emotion-Aware AI Voice Assistant",
@@ -176,13 +168,12 @@ function Projects() {
       tech: ["NLP", "Speech API", "Emotion AI", "Accessibility"]
     },
     {
-      icon: <FaMagic className="project-icon" />,
-      title: "Planora – Agentic-Powered Travel & Meeting Planner Website",
+      icon: <FaRocket className="project-icon" />,
+      title: "HR Onboarding Automation using UiPath",
       description:
-        "Built an Agentic + RPA platform for automated trip & meeting planning with smart itineraries, budget optimization, and autobooking.Automated bookings, scheduling, cost-splitting, and reporting using Agentic-driven decision-making with RPA workflows.",
-      tech: ["React", "Node.js", "Langchain","RPA","APIs"]
+        "Designed an end-to-end HR onboarding automation to generate and deliver offer letters with zero manual intervention. Automated data extraction from Excel, document generation in Word, PDF conversion, and email delivery, improving process efficiency.",
+      tech: ["UiPath Studio", "Excel Automation", "Word Automation", "SMTP"]
     }
-    // Add other projects similarly
   ];
 
   return (
@@ -358,7 +349,7 @@ function Gallery() {
     {
       img: womensHack,
       title: "Tech Divathon",
-      desc: "24-hour Women’s Hackathon with 1500+ teams — proud to be among the Top 60. Incredible opportunity to connect with our judge, Dr. Srimathy Kesan."
+      desc: "24-hour Women's Hackathon with 1500+ teams — proud to be among the Top 60. Incredible opportunity to connect with our judge, Dr. Srimathy Kesan."
     },
     {
       img: subaPic2,
