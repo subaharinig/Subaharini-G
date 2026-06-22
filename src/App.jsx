@@ -91,7 +91,7 @@ function Hero() {
 
 
 function About() {
-  return (
+  return ( 
     <section id="about" className="section about">
       <div className="container about-container">
         {/* Left side - Text */}
