@@ -75,7 +75,7 @@ function Hero() {
       <div className="floating-element"><FaBrain style={{ fontSize: "5rem" }} /></div>
 
       <div className="hero-content">
-        <h1>Subaharini G</h1>
+        <h1>Subaharini</h1>
         <p className="hero-subtitle">
           <span className="role-animation">{roles[currentRole]}</span>
         </p>
